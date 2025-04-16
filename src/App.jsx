@@ -2,6 +2,7 @@ import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom"
 import Homepage from "./pages/Homepage"
 import AboutUs from "./pages/AboutUs"
 import PostList from "./pages/PostList"
+import "./App.css"
 
 function App() {
   return (
