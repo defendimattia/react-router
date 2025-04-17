@@ -1,4 +1,8 @@
+import { useParams } from "react-router-dom"
+
 export default function PostPage() {
-    return <h1>postpage</h1>
+    const { id } = useParams()
+
+    return <h1>postpage {id}</h1>
 
 }
